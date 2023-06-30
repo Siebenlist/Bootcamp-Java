@@ -1,0 +1,48 @@
+h1, h2, p, a, li{
+    color: white;
+}
+.container{
+    width: 1200px;
+    padding: 5px;
+    margin: 0 auto;
+    background-color: rgb(74, 2, 74);
+}
+
+nav{
+    width: full;
+    padding: 20px;
+    margin: 10px;
+    background-color: red;
+    border-radius: 20px;
+}
+
+.sidebar{
+    background-color: gray;
+    display: inline-block;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 20px;
+    width: 220px;
+    vertical-align: top;
+}
+
+main{
+    background-color: black;
+    border-radius: 20px;
+    display: inline-block;
+    padding: 20px;
+    margin: 10px;
+    width: 850px;
+}
+
+footer{
+    width: full;
+    background-color: gray;
+    padding: 5px 0 5px 20px;
+    margin: 5px;
+    border-radius: 20px;
+}
+
+.blue{
+    color: blue;
+}
