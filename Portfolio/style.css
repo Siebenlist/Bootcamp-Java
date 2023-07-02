@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(46, 45, 45);
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+    /* Header */
+header{
+    background-color: white;
+    height: 80px;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    margin: 0 20px;
+}
+
+nav h1{
+    font-size: 35px;
+}
+
+nav h2{
+    align-self: center;
+}
+
+    /* Main Content*/
+section{
+    display: flex;
+    justify-content: space-evenly;
+    color: black;
+    margin: 30px 0;
+    width: 100%;
+}
+
+section a{
+    color: black;
+}
+
+section .my-photo{
+    width: 40%;
+    border: 5px solid gray;
+}
+
+section .main{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.main h2{
+    font-size: 30px;
+    color: white;
+    background-color: gray;
+    padding: 15px;
+    background: linear-gradient(#ccc, #898989, #ccc);
+}
+
+.main-text{
+    background-color: white;
+    font-size: 15px;
+    padding: 15px;
+    height: 100%;
+}
+
+.main-text .paragraph-1 {
+    margin: 15px 0 25px 0;
+}
+
+.main-text .paragraph-2 {
+    margin-bottom: 20px;
+}
+
+/* Cards content */
+.cards .card{
+    width: 300px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.card h2, h3{
+    color: white;
+    padding: 15px;
+    background: linear-gradient(#ccc, #898989, #ccc);
+}
+
+.card p{
+    color: black;
+    padding: 10px;
+    height: 160px;
+}
+
+.card button{
+    text-decoration: none;
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+    border: 2px solid black;
+    padding: 5px 15px;
+    margin: 10px auto;
+}
+
+.card .langs{
+    width: 85%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px auto;
+}
+
+.langs img{
+    width: 40px;
+    margin: 5px;
+}
+
+/* footer */
+footer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: white;
+}
+
+footer .links {
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+footer p{
+    height: 50%;
+    padding: 10px 0;
+}
+
+.links img  {
+    width: 25px;
+    height: 25px;
+}
+
+.links .socials {
+    display: flex;
+    padding: 10px 0;
+}
+
+.socials a{
+    color: black;
+}
