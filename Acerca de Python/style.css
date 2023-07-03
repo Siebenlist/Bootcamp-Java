@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.yellow{
+    color: yellow;
+}
+
+.container{
+    width: 970px;
+    margin: 0 auto;
+    background-color: #245076;
+}
+
+/* navbar */
+
+nav .nav-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.nav-top img{
+    width: 35%;
+}
+
+.nav-top form{
+    background-color: #444444;
+    padding: 15px 35px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px;
+}
+
+.nav-top form input{
+    padding: 5px 15px;
+}
+
+.nav-top form button{
+    padding: 5px;
+    background-color: #245076;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.nav-bot{
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    background-color: #437cad;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px;
+}
+
+.nav-bot a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+/* main content */
+
+main {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 25px 30px;
+}
+
+main aside{
+    width: 30%;
+}
+
+aside ul li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+aside ul li a{
+    color: white;
+    font-size: 20px;
+}
+
+main .main-info{
+    width: 70%;
+}
+
+.main-info p{
+    color: white;
+    margin: 10px 0;
+}
+
+.main-info h2{
+    font-style: italic;
+    font-weight: lighter;
+    margin-bottom: 10px;
+}
+
+.main-info h3{
+    color: white;
+    margin-bottom: 25px;
+}
+
+/* cards section */
+
+hr{
+    height: 5px;
+    background-color: #437cad;
+}
+
+.cards{
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cards p{
+    font-size: 20px;
+}
+
+.cards a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #9ec2e1;
+}
+
+.cards .card{
+    width: 45%;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.card ul{
+    width: 70%;
+    margin: 0 auto;
+}
+
+/* footer */
+
+footer{
+    background-color: #265782;
+    color: #9ec2e1;
+    text-align: center;
+    padding-top: 60px;
+}
+
+footer a{
+    margin: 10px;
+    text-decoration: none;
+    color: #9ec2e1;
+    font-size: 20px;
+}
+
+footer p{
+    margin: 15px;
+}
